@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\公司人事管理系统\login\login\obj\x86\Debug\login.exe
+C:\Users\Administrator\Desktop\公司人事管理系统\login\login\obj\x86\Debug\login.pdb
+C:\Users\Administrator\Desktop\公司人事管理系统\login\login\bin\Debug\login.exe
+C:\Users\Administrator\Desktop\公司人事管理系统\login\login\bin\Debug\login.pdb
+C:\Users\Administrator\Desktop\公司人事管理系统\login\login\obj\x86\Debug\login.login.resources
+C:\Users\Administrator\Desktop\公司人事管理系统\login\login\obj\x86\Debug\login.Properties.Resources.resources
+C:\Users\Administrator\Desktop\公司人事管理系统\login\login\obj\x86\Debug\login.register.resources
+C:\Users\Administrator\Desktop\公司人事管理系统\login\login\obj\x86\Debug\manager.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\公司人事管理系统\login\login\obj\x86\Debug\manager.csprojResolveAssemblyReference.cache

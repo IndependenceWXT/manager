@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{02C52485-14EC-462A-BAF9-17E19ADD85FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>login</RootNamespace>
+    <AssemblyName>login</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adminMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminMain.Designer.cs">
+      <DependentUpon>adminMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alterdept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alterdept.Designer.cs">
+      <DependentUpon>alterdept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alterpwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alterpwd.Designer.cs">
+      <DependentUpon>alterpwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constant.cs" />
+    <Compile Include="DBhelper.cs" />
+    <Compile Include="deptinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deptinfo.Designer.cs">
+      <DependentUpon>deptinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deptselect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deptselect.Designer.cs">
+      <DependentUpon>deptselect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="empalter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="empalter.Designer.cs">
+      <DependentUpon>empalter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="empinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="empinfo.Designer.cs">
+      <DependentUpon>empinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="myInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="myInformation.Designer.cs">
+      <DependentUpon>myInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="register.Designer.cs">
+      <DependentUpon>register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selectsign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectsign.Designer.cs">
+      <DependentUpon>selectsign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="signinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="signinfo.Designer.cs">
+      <DependentUpon>signinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="signRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="signRecord.Designer.cs">
+      <DependentUpon>signRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yzcode.cs" />
+    <EmbeddedResource Include="alterdept.resx">
+      <DependentUpon>alterdept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alterpwd.resx">
+      <DependentUpon>alterpwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deptinfo.resx">
+      <DependentUpon>deptinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deptselect.resx">
+      <DependentUpon>deptselect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="empalter.resx">
+      <DependentUpon>empalter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="empinfo.resx">
+      <DependentUpon>empinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="myInformation.resx">
+      <DependentUpon>myInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="register.resx">
+      <DependentUpon>register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selectsign.resx">
+      <DependentUpon>selectsign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="signinfo.resx">
+      <DependentUpon>signinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="signRecord.resx">
+      <DependentUpon>signRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg4.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
