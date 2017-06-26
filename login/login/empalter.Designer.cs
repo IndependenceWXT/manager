@@ -252,6 +252,7 @@
             this.Name = "empalter";
             this.Text = "empalter";
             this.Load += new System.EventHandler(this.empalter_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.empalter_MouseDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.age)).EndInit();

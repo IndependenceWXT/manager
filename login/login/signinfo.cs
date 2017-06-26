@@ -114,7 +114,6 @@ namespace login
                 MessageBox.Show("今天已经签到过了，明天再来！！");
 
             }
-            MessageBox.Show(strYMD);
             
         }
         private void btn_Click(object sender, EventArgs e)

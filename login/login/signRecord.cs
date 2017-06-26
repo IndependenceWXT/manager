@@ -37,7 +37,6 @@ namespace login
         {
             DateTime time = DateTime.Now;
             mCount = DateTime.DaysInMonth(time.Year,time.Month);
-            MessageBox.Show(mCount.ToString());
             return mCount;
         }
         //获取该月正常签到或迟到的次数
@@ -65,7 +64,6 @@ namespace login
             System.DateTime currentTime = new System.DateTime();
             currentTime = System.DateTime.Now;
             String strYM = currentTime.ToString("y");
-            MessageBox.Show(strYM);
             for (int i = 1; i < mCount;i++ )
             {
                 String cmdText = "select * from sign where eid=@eid and sdate='" + strYM +i+ "日'";

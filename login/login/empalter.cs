@@ -108,7 +108,6 @@ namespace login
             setFirstName();
             setPersonName();
             setDeptName();
-            MessageBox.Show("name"+lastName);
             comboBox1.Text = lastName;
             String cmdText = "select * from employee where ename=@ename";
             SqlParameter enamesprm = new SqlParameter("@ename", lastName);
@@ -127,7 +126,6 @@ namespace login
                 tel.Text = r["etel"].ToString();
                 date.Text = r["ecreatedate"].ToString();
                 //根据did在dept表中找到部门名称
-                MessageBox.Show("load"+r["did"].ToString());
                 if (r["did"]==null || r["did"].ToString().Equals(""))
                 {
                     dept.Text = "";
@@ -161,7 +159,6 @@ namespace login
                 tel.Text = r["etel"].ToString();
                 date.Text = r["ecreatedate"].ToString();
                 //根据did在dept表中找到部门名称 
-                MessageBox.Show("change"+r["did"].ToString());
                 if (r["did"]==null || r["did"].ToString().Equals(""))
                 {
                     dept.Text = "";
@@ -240,15 +237,10 @@ namespace login
             this.close.BackColor = Color.Transparent;
             this.close.ForeColor = Color.FromArgb(200, 200, 200);
         }
-        private void close_MouseDown(object sender, MouseEventArgs e)
+        private void empalter_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
             SendMessage(this.Handle, WM_SYSCOMMAND, SC_MOVE + HTCAPTION, 0);//调用移动无边框窗体控件函数
-
-        }
-
-        private void empalter_Load()
-        {
 
         }
 

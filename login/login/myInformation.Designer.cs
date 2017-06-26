@@ -48,8 +48,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.alterbtn = new System.Windows.Forms.Button();
-            this.returnbtn = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.close = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.img)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.age)).BeginInit();
@@ -77,7 +77,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox1.Location = new System.Drawing.Point(24, 61);
+            this.groupBox1.Location = new System.Drawing.Point(56, 93);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(623, 375);
             this.groupBox1.TabIndex = 0;
@@ -189,7 +189,6 @@
             this.name.ReadOnly = true;
             this.name.Size = new System.Drawing.Size(200, 26);
             this.name.TabIndex = 8;
-
             // 
             // label7
             // 
@@ -269,7 +268,7 @@
             this.alterbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.alterbtn.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.alterbtn.ForeColor = System.Drawing.Color.Green;
-            this.alterbtn.Location = new System.Drawing.Point(560, 21);
+            this.alterbtn.Location = new System.Drawing.Point(592, 44);
             this.alterbtn.Name = "alterbtn";
             this.alterbtn.Size = new System.Drawing.Size(87, 34);
             this.alterbtn.TabIndex = 27;
@@ -277,23 +276,26 @@
             this.alterbtn.UseVisualStyleBackColor = false;
             this.alterbtn.Click += new System.EventHandler(this.alterbtn_Click);
             // 
-            // returnbtn
-            // 
-            this.returnbtn.BackColor = System.Drawing.Color.Transparent;
-            this.returnbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.returnbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.returnbtn.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.returnbtn.ForeColor = System.Drawing.Color.Green;
-            this.returnbtn.Location = new System.Drawing.Point(24, 12);
-            this.returnbtn.Name = "returnbtn";
-            this.returnbtn.Size = new System.Drawing.Size(85, 34);
-            this.returnbtn.TabIndex = 28;
-            this.returnbtn.Text = "返回主页";
-            this.returnbtn.UseVisualStyleBackColor = false;
-            // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // close
+            // 
+            this.close.BackColor = System.Drawing.Color.Transparent;
+            this.close.FlatAppearance.BorderSize = 0;
+            this.close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.close.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.close.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.close.Location = new System.Drawing.Point(694, 1);
+            this.close.Name = "close";
+            this.close.Size = new System.Drawing.Size(30, 30);
+            this.close.TabIndex = 28;
+            this.close.Text = "×";
+            this.close.UseVisualStyleBackColor = false;
+            this.close.Click += new System.EventHandler(this.close_Click);
+            this.close.MouseEnter += new System.EventHandler(this.close_MouseEnter);
+            this.close.MouseLeave += new System.EventHandler(this.close_MouseLeave);
             // 
             // myInformation
             // 
@@ -301,13 +303,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::login.Properties.Resources.bg4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(664, 448);
-            this.Controls.Add(this.returnbtn);
+            this.ClientSize = new System.Drawing.Size(723, 498);
+            this.Controls.Add(this.close);
             this.Controls.Add(this.alterbtn);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "myInformation";
             this.Text = "myInformation";
             this.Load += new System.EventHandler(this.myInformation_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.myinfo_MouseDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.img)).EndInit();
@@ -335,10 +339,10 @@
         private System.Windows.Forms.TextBox num;
         private System.Windows.Forms.Button lookbtn;
         private System.Windows.Forms.PictureBox img;
-        private System.Windows.Forms.Button returnbtn;
         private System.Windows.Forms.Label teltext;
         private System.Windows.Forms.Label nametext;
         private System.Windows.Forms.Label numtext;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button close;
     }
 }

@@ -234,5 +234,12 @@ namespace login
             //右上角退出
             this.Close();
         }
+
+        private void deptselect_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, WM_SYSCOMMAND, SC_MOVE + HTCAPTION, 0);//调用移动无边框窗体控件函数
+        }
+
     }
 }

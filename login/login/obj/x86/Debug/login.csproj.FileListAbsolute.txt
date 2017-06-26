@@ -18,3 +18,7 @@ C:\Users\Administrator\Desktop\公司人事管理系统\login\login\obj\x86\Debu
 C:\Users\Administrator\Desktop\公司人事管理系统\login\login\obj\x86\Debug\login.selectsign.resources
 C:\Users\Administrator\Desktop\公司人事管理系统\login\login\obj\x86\Debug\login.empalter.resources
 C:\Users\Administrator\Desktop\公司人事管理系统\login\login\obj\x86\Debug\login.empinfo.resources
+C:\Users\Administrator\Desktop\公司人事管理系统\login\login\obj\x86\Debug\login.adminMain.resources
+C:\Users\Administrator\Desktop\公司人事管理系统\login\login\obj\x86\Debug\login.addad.resources
+C:\Users\Administrator\Desktop\公司人事管理系统\login\login\obj\x86\Debug\login.selectad.resources
+C:\Users\Administrator\Desktop\公司人事管理系统\login\login\obj\x86\Debug\login.deletead.resources

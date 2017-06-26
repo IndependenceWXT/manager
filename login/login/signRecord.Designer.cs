@@ -69,7 +69,7 @@
             this.columnHeader3});
             this.listView1.Location = new System.Drawing.Point(79, 112);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(369, 404);
+            this.listView1.Size = new System.Drawing.Size(399, 485);
             this.listView1.TabIndex = 18;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -105,7 +105,7 @@
             this.groupBox1.Controls.Add(this.daycount);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox1.Location = new System.Drawing.Point(454, 318);
+            this.groupBox1.Location = new System.Drawing.Point(504, 399);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(224, 198);
             this.groupBox1.TabIndex = 19;
@@ -245,7 +245,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::login.Properties.Resources.bg4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(754, 555);
+            this.ClientSize = new System.Drawing.Size(779, 620);
             this.Controls.Add(this.close);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.listView1);

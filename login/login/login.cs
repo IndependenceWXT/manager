@@ -97,30 +97,41 @@ namespace login
             else {
                 this.nptext.Text = "";
                 //管理员登录
-                if (this.number.Text == "admin")
+
+                if (comboBox1.Text=="管理员")
                 {
                     this.nptext.ForeColor = Color.Green;
                     this.nptext.Text = "管理员帐号正在登录中....";
-                    if (this.paw.Text == "admin")
+                    if (this.number.Text == "admin")
                     {
-                        if (flag == 1)
+                        if (this.paw.Text == "admin")
                         {
-                            MessageBox.Show("管理者，欢迎你的登录！！");
-                            adminMain am = new adminMain();
-                            am.Show();
-                        }
-                        else {
-                            this.pwdtext.ForeColor = Color.Green;
-                            this.pwdtext.Text = "密码正确！！";
-                        }
-                        
-                    }
-                    else
-                    {
+                            if (flag == 1)
+                            {
+                                MessageBox.Show("管理者，欢迎你的登录！！");
+                                adminMain am = new adminMain();
+                                am.Show();
+                            }
+                            else
+                            {
+                                this.pwdtext.ForeColor = Color.Green;
+                                this.pwdtext.Text = "密码正确！！";
+                            }
 
-                        this.pwdtext.ForeColor = Color.Red;
-                        this.pwdtext.Text = "密码不正确！！";
+                        }
+                        else
+                        {
+
+                            this.pwdtext.ForeColor = Color.Red;
+                            this.pwdtext.Text = "密码不正确！！";
+                        }
                     }
+                    else {
+
+                        this.nptext.ForeColor = Color.Red;
+                        this.nptext.Text = "管理员帐号不正确，应为admin";
+                    }
+                   
 
                 }
                 //用户登录

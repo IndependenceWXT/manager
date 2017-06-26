@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addad.Designer.cs">
+      <DependentUpon>addad.cs</DependentUpon>
+    </Compile>
     <Compile Include="adminMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,12 @@
     </Compile>
     <Compile Include="Constant.cs" />
     <Compile Include="DBhelper.cs" />
+    <Compile Include="deletead.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deletead.Designer.cs">
+      <DependentUpon>deletead.cs</DependentUpon>
+    </Compile>
     <Compile Include="deptinfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +128,12 @@
     <Compile Include="register.Designer.cs">
       <DependentUpon>register.cs</DependentUpon>
     </Compile>
+    <Compile Include="selectad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectad.Designer.cs">
+      <DependentUpon>selectad.cs</DependentUpon>
+    </Compile>
     <Compile Include="selectsign.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,11 +153,20 @@
       <DependentUpon>signRecord.cs</DependentUpon>
     </Compile>
     <Compile Include="yzcode.cs" />
+    <EmbeddedResource Include="addad.resx">
+      <DependentUpon>addad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminMain.resx">
+      <DependentUpon>adminMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="alterdept.resx">
       <DependentUpon>alterdept.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="alterpwd.resx">
       <DependentUpon>alterpwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deletead.resx">
+      <DependentUpon>deletead.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="deptinfo.resx">
       <DependentUpon>deptinfo.cs</DependentUpon>
@@ -175,6 +202,9 @@
     <EmbeddedResource Include="register.resx">
       <DependentUpon>register.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="selectad.resx">
+      <DependentUpon>selectad.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="selectsign.resx">
       <DependentUpon>selectsign.cs</DependentUpon>
     </EmbeddedResource>
@@ -205,6 +235,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bg4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg6.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
