@@ -37,7 +37,6 @@
             this.apwdtext = new System.Windows.Forms.Label();
             this.alterbtn = new System.Windows.Forms.Button();
             this.pwdtext = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.num = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -128,9 +127,9 @@
             this.alterbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.alterbtn.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.alterbtn.ForeColor = System.Drawing.Color.Green;
-            this.alterbtn.Location = new System.Drawing.Point(208, 202);
+            this.alterbtn.Location = new System.Drawing.Point(188, 202);
             this.alterbtn.Name = "alterbtn";
-            this.alterbtn.Size = new System.Drawing.Size(70, 34);
+            this.alterbtn.Size = new System.Drawing.Size(126, 34);
             this.alterbtn.TabIndex = 28;
             this.alterbtn.Text = "提   交";
             this.alterbtn.UseVisualStyleBackColor = false;
@@ -146,17 +145,6 @@
             this.pwdtext.Size = new System.Drawing.Size(17, 20);
             this.pwdtext.TabIndex = 29;
             this.pwdtext.Text = "  ";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(158, 254);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(42, 21);
-            this.label4.TabIndex = 30;
-            this.label4.Text = "员工";
             // 
             // num
             // 
@@ -192,10 +180,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::login.Properties.Resources.bg4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(527, 295);
+            this.ClientSize = new System.Drawing.Size(527, 264);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.num);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.pwdtext);
             this.Controls.Add(this.alterbtn);
             this.Controls.Add(this.apwdtext);
@@ -226,7 +213,6 @@
         private System.Windows.Forms.Label apwdtext;
         private System.Windows.Forms.Button alterbtn;
         private System.Windows.Forms.Label pwdtext;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label num;
         private System.Windows.Forms.Button button1;
     }

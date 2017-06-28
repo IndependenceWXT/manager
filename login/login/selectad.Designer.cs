@@ -77,7 +77,7 @@
             // 
             this.count.AutoSize = true;
             this.count.BackColor = System.Drawing.Color.Transparent;
-            this.count.Location = new System.Drawing.Point(684, 144);
+            this.count.Location = new System.Drawing.Point(545, 153);
             this.count.Name = "count";
             this.count.Size = new System.Drawing.Size(17, 12);
             this.count.TabIndex = 3;
@@ -87,7 +87,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(707, 144);
+            this.label2.Location = new System.Drawing.Point(568, 153);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 12);
             this.label2.TabIndex = 4;
@@ -125,7 +125,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::login.Properties.Resources.bg4;
+            this.BackgroundImage = global::login.Properties.Resources.bg7;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(793, 371);
             this.Controls.Add(this.label3);

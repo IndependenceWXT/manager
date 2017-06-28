@@ -29,7 +29,7 @@ namespace login
         //设置发布公告的时间
         void setDate()
         {
-            String cmdText = "select date from ad";
+            String cmdText = "select distinct date from ad";
             SqlParameter[] sprm = new SqlParameter[] { };
             SqlDataReader dr = DBhelper.GetDR(cmdText, sprm);
             while (dr.Read())

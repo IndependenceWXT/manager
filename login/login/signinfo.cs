@@ -134,7 +134,6 @@ namespace login
                 }
                 
                 String name = getPersonName();
-                //MessageBox.Show("当前日期："+strYMD+"\n当前时间："+strT);
                 String cmdText = "insert into sign(eid,sflag,sdate,stime) values(@eid,@sflag,@sdate,@stime)";
                 SqlParameter eidsprm = new SqlParameter("@eid", numStr);
                 SqlParameter sflagsprm = new SqlParameter("@sflag", flag);

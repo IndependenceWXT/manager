@@ -72,11 +72,6 @@ namespace login
                         MessageBox.Show("修改失败！");
                     }
 
-
-
-
-
-
                 }
                 else
                 {

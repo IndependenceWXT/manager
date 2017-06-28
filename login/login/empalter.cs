@@ -130,7 +130,6 @@ namespace login
                 {
                     dept.Text = "";
                 }else{
-                    MessageBox.Show("dept"+getDeptName((int)r["did"]));
                     String deptname = getDeptName((int)r["did"]);
                      dept.Text = deptname;
                 }
@@ -191,7 +190,6 @@ namespace login
                     SqlParameter cdsprm = new SqlParameter("@cd", date.Value);
                     SqlParameter idsprm = new SqlParameter("@id", id);
                     //根据输入的部门名获取部门id
-                    MessageBox.Show(getDeptId(dept.Text).ToString());
                     int did = getDeptId(dept.Text);
                 
                     SqlParameter didsprm = new SqlParameter("@did", did);

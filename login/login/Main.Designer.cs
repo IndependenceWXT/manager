@@ -77,8 +77,8 @@
             this.我的考勤记录ToolStripMenuItem});
             this.签到管理ToolStripMenuItem.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.签到管理ToolStripMenuItem.Name = "签到管理ToolStripMenuItem";
-            this.签到管理ToolStripMenuItem.Size = new System.Drawing.Size(86, 25);
-            this.签到管理ToolStripMenuItem.Text = "考勤管理";
+            this.签到管理ToolStripMenuItem.Size = new System.Drawing.Size(54, 25);
+            this.签到管理ToolStripMenuItem.Text = "考勤";
             // 
             // 我要签到ToolStripMenuItem
             // 
@@ -102,7 +102,7 @@
             this.部门管理ToolStripMenuItem.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.部门管理ToolStripMenuItem.Name = "部门管理ToolStripMenuItem";
             this.部门管理ToolStripMenuItem.Size = new System.Drawing.Size(86, 25);
-            this.部门管理ToolStripMenuItem.Text = "部门管理";
+            this.部门管理ToolStripMenuItem.Text = "部门信息";
             // 
             // 部门信息ToolStripMenuItem
             // 
@@ -148,13 +148,13 @@
             this.查看公告ToolStripMenuItem});
             this.公告管理ToolStripMenuItem.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.公告管理ToolStripMenuItem.Name = "公告管理ToolStripMenuItem";
-            this.公告管理ToolStripMenuItem.Size = new System.Drawing.Size(86, 25);
-            this.公告管理ToolStripMenuItem.Text = "公告管理";
+            this.公告管理ToolStripMenuItem.Size = new System.Drawing.Size(70, 25);
+            this.公告管理ToolStripMenuItem.Text = "公告栏";
             // 
             // 查看公告ToolStripMenuItem
             // 
             this.查看公告ToolStripMenuItem.Name = "查看公告ToolStripMenuItem";
-            this.查看公告ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
+            this.查看公告ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
             this.查看公告ToolStripMenuItem.Text = "查看公告";
             this.查看公告ToolStripMenuItem.Click += new System.EventHandler(this.查看公告ToolStripMenuItem_Click);
             // 

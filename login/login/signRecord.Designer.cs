@@ -55,7 +55,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(148, 52);
+            this.label1.Location = new System.Drawing.Point(213, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(250, 21);
             this.label1.TabIndex = 0;
@@ -67,7 +67,7 @@
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3});
-            this.listView1.Location = new System.Drawing.Point(79, 112);
+            this.listView1.Location = new System.Drawing.Point(53, 67);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(399, 485);
             this.listView1.TabIndex = 18;
@@ -105,7 +105,7 @@
             this.groupBox1.Controls.Add(this.daycount);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox1.Location = new System.Drawing.Point(504, 399);
+            this.groupBox1.Location = new System.Drawing.Point(477, 354);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(224, 198);
             this.groupBox1.TabIndex = 19;
@@ -229,7 +229,7 @@
             this.close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.close.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.close.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.close.Location = new System.Drawing.Point(726, -1);
+            this.close.Location = new System.Drawing.Point(751, -2);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(30, 30);
             this.close.TabIndex = 20;
@@ -243,9 +243,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::login.Properties.Resources.bg4;
+            this.BackgroundImage = global::login.Properties.Resources.bg7;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(779, 620);
+            this.ClientSize = new System.Drawing.Size(779, 566);
             this.Controls.Add(this.close);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.listView1);
